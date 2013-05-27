@@ -1,24 +1,5 @@
 #include "testApp.h"
-/*
- 
- 
- int train_sample_count = 300;
- 
- 
- float values[] = {0,1,2,3,4,5,6};
- float answers[] = {1,1,1,2,2,3,3};
- 
- cv::Mat trainSamples = cv::Mat(7,1,CV_32FC1,values).clone();
- cv::Mat trainLabels = cv::Mat(7,1,CV_32FC1,answers).clone();
- 
- float query[] = {0,1,4,5};
- 
- cv::Mat searchData = cv::Mat(4,1,CV_32FC1,query).clone();
- cv::KNearest kn(trainSamples, trainLabels);
- 
- ofLog() << kn.find_nearest(searchData, 2);
- 
- */
+
 
 void getOutterContour(ofImage &im, vector<cv::Point> &points) {
 	
